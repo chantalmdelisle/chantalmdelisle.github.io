@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose Your Own Adventure</title>
+	<meta name="description" content="Choose Your Own Adventure">
+	<meta name="keywords" content="">
+	<meta name="author" content="Chantal Delisle">
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,400italic,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<header>
+		<a href="../index.html">Create Your Adventure</a>
+	</header>
+
+
+	<div id="wrapper" class="beginning active">			
+		<div id="image" class="panel">
+			<img src="../images/SF/beginning.jpg">
+		</div>
+		<div class="story panel">
+			<p class="title">Today, 2:46pm</p>
+			<p>Your boss just announced that your company’s Boston location is shutting down. A million thoughts are going through your mind…  You’re fired? Just like that? Jobless? You really, really should not have spent your last paycheck on Red Sox season tickets. You’re going to be the first of your siblings to move into your parents’ basement... </p>
+			<p>“Ahem. HEY,” your boss interrupts you from your frantic daydreaming. “This simply isn’t the right market for what we’re doing. You all have the opportunity to pick one of our other locations, but if you decide relocating isn’t going to work, we’ll take care of you while you get back on your…” He rambles on, but you can already see yourself packing up a moving truck—-nay, watching movers pack a truck-—and landing in…</p>
+			<nav id="prompts">
+				<a id="sanFrancisco">San Francisco</a>
+				<a id="reykjavik" href="reykjavik.html">Reykjavik</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="sanFrancisco">	
+		<div id="image" class="panel">
+			<img src="../images/SF/sanFrancisco.jpg">
+		</div>
+		<div class="story panel">
+			<p class="title">Week 1</p>			
+			<p>The last week went by quickly, too quickly. You found someone to sublet your apartment, packed up your things, said goodbye to family and friends, and now you’re here. You spent your first night in a hotel near the airport, but now you are on your way to meet your new boss. You’ve heard rumors, but you’re hoping she’s easy to warm up to. You glance down once last time and hope what you’re wearing looks okay; you packed a bag to make the trip, but most of your belongings will arrive midweek. </p>
+			<p>The air is warm and the hills are as steep as everyone said they would be. After grabbing a cup of coffee, you head towards the office. The receptionist shows you to your new office and makes small talk while the two of you wait for your boss. As you take in the view, you hear the unmistakable sound of heels on a mission…</p>
+			<p>“Good morning,” she says, “I hope you didn’t have any trouble finding us.” You shake her hand and dismiss her worries with the shake of your head. “I know you have some settling in to do, and we are certainly making adjustments in light of the recent news, so it may be best if you take the week and join us next Monday,” she says smiling. You can hardly believe what you are hearing. You skip out of the office, overjoyed with all of your recent luck. You expected the hustle and bustle of the last week to continue, but you have a seven whole days to relax and check out your new city. First things first… </p>
+			<nav id="prompts">
+				<a id="findApartment">Find an Apartment</a>
+				<a id="exploreCity">Explore the City</a>
+				<a id="sanFranciscoPrev">previous</a>
+			</nav>
+		</div>
+	</div>
+
+<!-- San Francisco Prompt 1: Find an Apartment -->
+
+	<div id="wrapper" class="findApartment">
+				<div id="image" class="panel">
+				<img src="../images/SF/findApartment.jpg">
+				</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>
+			<p>Having your hotel bill paid by the company is nice, but you have a truckload of stuff arriving in a few days and it's probably a good idea to have a place to put it. You are used to checking Craigslist and Zumper and Hotpads and every other site to find an apartment, but you know that's a waste of time. A friend of a friend is a realtor and you give her a call to ask if she is free this afternoon. </p>
+			<p>She shows you a few apartments, many of which you could never afford without ten roommates, and she can tell you are getting discouraged. Before the next stop, she offers you a bit of inspiration and asks if you would rather see the house from Mrs. Doubtfire, or the houses at Alamo Square seen in Full House. What do you decide?</p>
+			<nav id="prompts">
+				<a id="fullHouse">Full House</a>
+				<a id="mrsDoubtfire">Mrs. Doubtfire</a>
+				<a id="findApartmentPrev">previous</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="fullHouse">
+			<div id="image" class="panel">
+				<img src="../images/SF/fullHouse.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>
+			<p>It's everything you hoped it would be. Childhood is rushing back. "Everywhere you look, every smile you see..." pops into your head. Too bad you didn't have a chance to pack a picnic or gather a car full of your favorite people.</p>
+			<p>But alas, you are here with your realtor and you can't afford an apartment, let alone these houses. On to the next one... What's more important, a city view or a bay view?</p>
+			<nav id="prompts">
+				<a id="cityView">City View</a>
+				<a id="bayView">Bay View</a>
+				<a id="fullHousePrev">previous</a>				
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="cityView">
+			<div id="image" class="panel">
+				<img src="../images/SF/cityView.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>
+			<p>This apartment leaves you wondering why your realtor showed you anything else. It's close to work, has great views, and it's almost affordable. You're afraid to pass this one up, but you haven't seen very many apartments today, either. Do you take it or leave it?</p>
+			<nav id="prompts">
+				<a id="takeIt1">Take it.</a>
+				<a id="leaveIt1">Leave it.</a>
+				<a id="cityViewPrev">previous</a>	
+			</nav>
+		</div>	
+	</div>
+
+	<div id="wrapper" class="bayView">
+			<div id="image" class="panel">
+				<img src="../images/SF/bayView.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>
+			<p>Your realtor shows you an amazing place on top of a hill with fantastic views of the bay. It's a bit out of your price range, but utilities are included and there's a parking spot should you need it. The only downside you can see, other than the fate of your bank account, is that it's on a hill. Maybe you'll save on a gym membership? Do you take it or leave it?</p>
+			<nav id="prompts">
+				<a id="takeIt2">Take it.</a>
+				<a id="leaveIt2">Leave it.</a>
+				<a id="bayViewPrev">previous</a>	
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="mrsDoubtfire">
+			<div id="image" class="panel">
+				<img src="../images/SF/mrsDoubtfire.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>			
+			<p>YES! In your mind, you see Robin Williams in all his glory. Wig, nylons, and all. And what a view! It actually feels, and looks, like you are on top of the world. These hills are no joke. </p>
+			<p>Well, that was cool. You are still homeless, though, so back at it! What is more important, living close enough to work to take a streetcar, or living just close enough to drive?</p>
+			<nav id="prompts">
+				<a id="streetcar">Streetcar!</a>
+				<a id="drive">Drive!</a>
+				<a id="mrsDoubtfirePrev">previous</a>			
+			</nav>
+		</div>	
+	</div>
+
+	<div id="wrapper" class="streetcar">
+			<div id="image" class="panel">
+				<img src="../images/SF/streetcar.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>	
+			<p>You look at an apartment a little farther from work, but located near public transportation. The monthly pass will cost you, but rent is cheaper out here, so you'll still come out on top. It seems pretty great, but it's also the first one you've seen that you can afford. Are there others out there? Do you want to sign today or keep looking? </p>
+			<nav id="prompts">
+				<a id="takeIt3">Sign the lease.</a>
+				<a id="leaveIt3">Keep looking...</a>
+				<a id="streetcarPrev">previous</a>				
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="drive">
+			<div id="image" class="panel">
+				<img src="../images/SF/drive.jpg">
+			</div>	
+		<div class="story panel">
+			<p class="title">Day 1</p>	
+			<p>Your realtor has many more options if you are willing to commute everyday. She brings you across the bridge to Sausalito and shows you a small, but cozy, place with amazing views. What do you think? Sign a lease or keep looking?</p>
+			<nav id="prompts">
+				<a id="takeIt4">Sign the lease.</a>
+				<a id="leaveIt4">Keep looking...</a>
+				<a id="drivePrev">previous</a>				
+			</nav>
+		</div>	
+	</div>
+
+	<div id="wrapper" class="takeIt1 takeIt2 takeIt3 takeIt4">
+			<div id="image" class="panel">
+				<img src="../images/SF/takeIt.jpg">
+			</div>
+		<div class="story panel">
+			<p>Congratulations! You'll live happily ever after. Good luck on Monday!</p><p><span>The End.</span></p>
+			<nav id="prompts">
+				<a href="../index.html">Back to the beginning?</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="leaveIt1 leaveIt2 leaveIt3 leaveIt4">
+			<div id="image" class="panel">
+				<img src="../images/SF/leaveIt.jpg">
+			</div>
+		<div class="story panel">
+			<p>Oooooh, interesting choice. Maybe the hotel isn't so bad, after all. Take some time to get familiar with the city and try again.</p><p><span>The End.</span></p>
+			<nav id="prompts">
+				<a href="../index.html">Back to the beginning?</a>
+			</nav>
+		</div>
+	</div>
+
+<!-- San Francisco Prompt 2: Explore the City -->
+	<div id="wrapper" class="exploreCity">
+			<div id="image" class="panel">
+				<img src="../images/SF/exploreCity.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>	
+			<p>You have an entire week to yourself. You know you need to dedicate a few days to finding a place to live, but you decide it's okay to take a couple days to explore. You've been here once for a meeting and passed through on a family trip, but you've never taken time to be a tourist. Do you want to bike the Golden Gate or visit Alcatraz? </p>
+			<nav id="prompts">
+				<a id="goldenGate">Golden Gate</a>
+				<a id="alcatraz">Alcatraz</a>
+				<a id="exploreCityPrev">previous</a>
+			</nav>
+			</div>
+	</div>
+
+	<div id="wrapper" class="goldenGate">
+			<div id="image" class="panel">
+				<img src="../images/SF/goldenGate.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>	
+			<p>The sun is shining, you remembered your sunscreen, and you found a place that rents bicycles down by the water. Within fifteen minutes, you've got a bike, lock, basket (very important), helmet, and you're on your way. </p>
+			<p>There's a beach to your right and the bridge stretched out in front of you. The twists and turns up to the bridge are a bit strenuous, but luckily you're surrounded by out-of-breathe tourists that make you look good. Traffic zips by you on the bridge, but you are too distracted by the sparking water and the stretch of cliffs below to notice. </p>
+			<p>After a gorgeous afternoon biking to Sausalito and back, you decide to call it a day. What shall you do tomorrow? Stroll Fisherman's Wharf or Picnic at Alamo Square</p>
+			<nav id="prompts">
+				<a id="wharf">Fisherman's Wharf</a>
+				<a id="picnicAlamo">Alamo Square</a>
+				<a id="goldenGatePrev">previous</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="wharf">
+			<div id="image" class="panel">
+				<img src="../images/SF/wharf.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 2</p>	
+			<p>You're shooting for less physical activity today. You grab breakfast at a local diner and head towards Fisherman's Wharf.  There's plenty of souvenier shops, delicous food,  street performers, and things to see to keep you entertained for hours. After grabbing lunch, you head the the ultimate tourist trap--Pier 39.</p>
+			<p>You can hear the seals before you can see them. They're massive and they seem to be living the life. If the hardest thing you you have to do in a day is fight for a spot in the sun, I think you're doing okay.  You watch the seals for a while, entertained by how savage they are when it comes to getting the perfect spot on the dock. </p>
+			<nav id="prompts">
+				<a id="keepExploring1">Keep Exploring</a>
+				<a id="adult1">Start Adulting</a>
+				<a id="wharfPrev">previous</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="picnicAlamo">
+			<div id="image" class="panel">
+				<img src="../images/SF/fullHouse.jpg">
+			</div>
+	<div class="story panel">
+			<p class="title">Day 2</p>	
+			<p>You wake up starving, so you grab breakfast at a diner down the street form your hotel. On the way back, you stop at a deli to pick up the makings of today's lunch. Back at the hotel, you pack up everything you'll need for the day and head out on foot.</p>
+			<p>Alamo Square, famously known for it's role on Full House, is pretty far away, but you figure it's a good chance to see the city and find your way around. There's plenty of photo ops along the way and before you know it, you turn a corner and spy the famous row of houses from your favorite childhood sitcom.There's not many people out during the week , so you find a spot to enjoy your lunch and take a quic k nap in the sun.</p>
+			<p>On your way back to familiar grounds, you decide that you're up for more touristy sightseeing tomorrow. What will it be?</p>
+			<nav id="prompts">
+				<a id="keepExploring2">Keep Exploring</a>
+				<a id="adult2">Start Adulting</a>
+				<a id="picnicAlamoPrev">previous</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="alcatraz">
+			<div id="image" class="panel">
+				<img src="../images/SF/alcatraz.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 1</p>	
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+			<nav id="prompts">
+				<a id="coit">Coit Tower</a>
+				<a id="trolley">Trolley</a>
+				<a id="alcatrazPrev">previous</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="coit">
+			<div id="image" class="panel">
+				<img src="../images/SF/coit.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 2</p>	
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<nav id="prompts">
+				<a id="keepExploring3">Keep Exploring</a>
+				<a id="adult3">Start Adulting</a>
+				<a id="coitPrev">previous</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="trolley">
+			<div id="image" class="panel">
+				<img src="../images/SF/trolley.jpg">
+			</div>
+		<div class="story panel">
+			<p class="title">Day 2</p>				
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<nav id="prompts">
+				<a id="keepExploring4">Keep Exploring</a>
+				<a id="adult4">Start Adulting</a>
+				<a id="trolleyPrev">previous</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="keepExploring1 keepExploring2 keepExploring3 keepExploring4">
+			<div id="image" class="panel">
+				<img src="../images/SF/keepExploring.jpg">
+			</div>
+	<div class="story panel">
+			<p>You'll have tons of time to look for an apartment and settle in. After all, it's not a brand new job, just a new location. You know what you're doing... What to do for the rest of the week. A trip to Wine Country? Maybe a trip to San Diego?</p><p><span>The End.</span></p>
+			<nav id="prompts">
+				<a href="../index.html">Back to the beginning?</a>
+			</nav>
+		</div>
+	</div>
+
+	<div id="wrapper" class="adult1 adult2 adult3 adult4">
+			<div id="image" class="panel">
+				<img src="../images/SF/adult.jpg">
+			</div>
+		<div class="story panel">
+			<p>You might as well settle in while you have some free time. You've heard apartment hunting is no easy feat in San Francisco. Having a couple days "off" was nice, but now it's time to adult.</p><p><span>The End.</span></p>
+			<nav id="prompts">
+				<a href="../index.html">Back to the beginning?</a>
+			</nav>
+		</div>
+	</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/sanFrancisco.js" type="text/javascript"></script>
+</body>
+</html>
